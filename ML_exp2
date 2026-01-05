@@ -1,0 +1,48 @@
+ #Write a program to perform Arithmetic Array Operations (Addition, Subtraction,
+# Multiplication, Division, Exponentiation, and Modulus) using Libraries such as Statistics,
+# Math, Numpy and Scipy.
+
+# Import required libraries
+import math
+import statistics
+import numpy as np
+from scipy import stats
+
+# Define two arrays
+array1 = np.array([10, 20, 30, 40, 50])
+array2 = np.array([2, 4, 5, 8, 10])
+
+print("Array 1:", array1)
+print("Array 2:", array2)
+
+# Arithmetic Operations using NumPy
+addition = np.add(array1, array2)
+subtraction = np.subtract(array1, array2)
+multiplication = np.multiply(array1, array2)
+division = np.divide(array1, array2)
+exponentiation = np.power(array1, array2)
+modulus = np.mod(array1, array2)
+
+print("\nArithmetic Operations:")
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
+print("Exponentiation:", exponentiation)
+print("Modulus:", modulus)
+
+# Using math library (single value example)
+print("\nMath Library Example:")
+print("Square root of first element:", math.sqrt(array1[0]))
+
+# Using statistics library
+print("\nStatistics Library:")
+print("Mean of Array 1:", statistics.mean(array1))
+print("Median of Array 1:", statistics.median(array1))
+
+# Using scipy library
+print("\nScipy Library:")
+print("Geometric Mean of Array 1:", stats.gmean(array1))
+print("Harmonic Mean of Array 1:", stats.hmean(array1))
+
+
