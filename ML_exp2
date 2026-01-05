@@ -46,3 +46,27 @@ print("Geometric Mean of Array 1:", stats.gmean(array1))
 print("Harmonic Mean of Array 1:", stats.hmean(array1))
 
 
+************OUTPUT*******
+Array 1: [10 20 30 40 50]
+Array 2: [ 2  4  5  8 10]
+
+Arithmetic Operations:
+Addition: [12 24 35 48 60]
+Subtraction: [ 8 16 25 32 40]
+Multiplication: [ 20  80 150 320 500]
+Division: [5. 5. 6. 5. 5.]
+Exponentiation: [              100            160000          24300000     6553600000000
+ 97656250000000000]
+Modulus: [0 0 0 0 0]
+
+Math Library Example:
+Square root of first element: 3.1622776601683795
+
+Statistics Library:
+Mean of Array 1: 30
+Median of Array 1: 30
+
+Scipy Library:
+Geometric Mean of Array 1: 26.051710846973528
+Harmonic Mean of Array 1: 21.8978102189781
+
