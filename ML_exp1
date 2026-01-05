@@ -56,3 +56,19 @@ print("\nMeasures of Dispersion")
 print("Variance =", variance)
 print("Standard Deviation =", std_deviation)
 
+
+*****OUTPUT******
+
+Enter the data values separated by space:  10 20 30 40 50
+
+
+Central Tendency Measures
+Mean = 30.0
+Median = 30.0
+Mode = [10.0, 20.0, 30.0, 40.0, 50.0]
+
+Measures of Dispersion
+Variance = 200.0
+Standard Deviation = 14.142135623730951
+
+
